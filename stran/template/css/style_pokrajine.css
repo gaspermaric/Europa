@@ -1,0 +1,1041 @@
+.container-fluid
+{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+  .navbar-expand-lg .navbar-collapse
+  {
+    margin-right: 30px;
+  }
+
+  .navbar-expand-lg .navbar-nav
+  {
+    width: 100%;
+    padding-top: 70px;
+  }
+
+  li
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .navbar-light .navbar-brand.prvi
+  {
+    padding-top: 70px;
+  }
+
+  body > nav > a:nth-child(1) > img
+  {
+    height: 150px;
+    width: 150px;
+  }
+
+  .navbar .navbar-nav img {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* Slovenia domača stran */
+.container-fluid.background
+{
+  background: url('../images/background-1.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.background .col-sm-8
+{
+  align-content: center;
+}
+
+.container-fluid.background .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poravnava
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.width-inh
+{
+  width: inherit;
+}
+
+.container-fluid.naslov
+{
+  padding: 0px;
+  text-align: center;
+  height: 400px;
+  background-color: #8baf89;
+  font-family: 'Slabo 27px', serif;
+}
+
+span
+{
+  color: white;
+}
+
+.container-fluid.naslov .col-sm-8 h1
+{
+  font-size: 40px;
+  color: #ddead7;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.naslov .col-sm-8 p
+{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.container-fluid.naslov_kultura
+{
+  background: url('../images/2.jpg') no-repeat 0 -200px;
+  height: 500px;
+}
+
+.container-fluid.naslov_kultura .col-sm-8 .my-auto
+{
+  color: #e5e8e5;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.destinacija
+{
+  color: black;
+  text-align: center;
+  background-color: #abc6f2;
+  padding-top: 20px;
+}
+
+.container-fluid.destinacija1
+{
+    color: black;
+    text-align: center;
+    background-color: #abc6f2;
+    padding: 2rem !important;
+}
+
+.container-fluid.destinacija .col-sm-4  .card
+{
+  height: 580px;
+  width: 500px;
+}
+
+.container-fluid.destinacija .col-sm-4 img
+{
+  width: 500px;
+  height: 350px;
+}
+
+.container-fluid.destinacija1 .col-sm-4 img
+{
+  width: 500px;
+  height: 350px;
+}
+
+.container-fluid.destinacija1 .col-sm-4  .card
+{
+  height: 580px;
+  width: 500px;
+}
+
+
+.container-fluid.naslov_gastronomija
+{
+  background: url('../images/slika55.jpg') no-repeat 0 -350px;
+  height: 500px;
+}
+
+.container-fluid.naslov_gastronomija .col-sm-8 .my-auto
+{
+  color: #d8eac2;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.gastronomija
+{
+  color: black;
+  text-align: center;
+  background-color: #abc6f2;
+  padding-top: 20px;
+}
+
+.container-fluid.gastronomija .col-sm-6  .card
+{
+  height: 670px;
+  width: 750px;
+}
+
+.container-fluid.gastronomija .col-sm-6  .card img
+{
+  height: 450px;
+  width: 750px;
+}
+
+.container-fluid.alpska
+{
+  padding: 0px;
+  text-align: center;
+  height: 400px;
+  background-color: #a8c2ea;
+}
+
+.container-fluid.alpska .col-sm-8 h1
+{
+  font-size: 40px;
+  color: #ddead7;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.alpska .col-sm-8 p
+{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.panonska
+{
+  padding: 0px;
+  text-align: center;
+  height: 400px;
+  background-color: #d8d3cd;
+}
+
+.container-fluid.panonska .col-sm-8 h1
+{
+  font-size: 40px;
+  color: #ddead7;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.panonska .col-sm-8 p
+{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.primorska
+{
+  padding: 0px;
+  text-align: center;
+  height: 400px;
+  background-color: #d8d3cd;
+}
+
+.container-fluid.primorska .col-sm-8 h1
+{
+  font-size: 40px;
+  color: #ddead7;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.primorska .col-sm-8 p
+{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.osrednja
+{
+  padding: 0px;
+  text-align: center;
+  height: 400px;
+  background-color: #d8d3cd;
+}
+
+.container-fluid.osrednja .col-sm-8 h1
+{
+  font-size: 40px;
+  color: #ddead7;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.osrednja .col-sm-8 p
+{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.container-fluid.visit .col-sm-10 .potovanje_napis
+{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  font-family: 'Slabo 27px', serif;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje_napis p
+{
+  font-size: 20px;
+}
+
+/* Alpska */
+
+.container-fluid.background .col-sm-8
+{
+  align-content: center;
+}
+
+.container-fluid.background .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.background .col-sm-8
+{
+  height: 300px;
+}
+
+.poravnava
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.width-inh
+{
+  width: inherit;
+}
+
+.container-fluid.naslov .col-sm-8 h1
+{
+  font-size: 40px;
+  color: #ddead7;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.naslov .col-sm-8 p
+{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid.background_alpska
+{
+  background: url('../images/image9.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.background .col-sm-8
+{
+  align-content: center;
+}
+
+.container-fluid.background_alpska .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.poravnava
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.width-inh
+{
+  width: inherit;
+}
+
+.container-fluid.destinacije_naslov
+{
+  padding: 0px;
+  text-align: center;
+  height: 100px;
+}
+
+.container-fluid.destinacije
+{
+  height: 600px;
+}
+
+.container-fluid.background_alpska
+{
+  background: url('../images/3.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.destinacije .col-3 .card .prvi_alpska
+{
+  background: url('../images/image1.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .drugi_alpska
+{
+  background: url('../images/image2.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .tretji_alpska
+{
+  background: url('../images/image4.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .cetrti_alpska
+{
+  background: url('../images/image3.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+  position: relative;
+  bottom: 0px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje1_alpska
+{
+  background: url('../images/slika10.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje2_alpska
+{
+  background: url('../images/image7.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje3_alpska
+{
+  background: url('../images/image8.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje4_alpska
+{
+  background: url('../images/slika13.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje5_alpska
+{
+  background: url('../images/slika14.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.destinacije .col-3 .card p
+{
+  width: 280px;
+}
+
+.container-fluid.destinacije .col-3 .card
+{
+  border: 0px;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.container-fluid.destinacije .col-3 .card .prvi
+{
+  color: black;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  text-align: justify;
+}
+
+
+.container-fluid.top_destinacije
+{
+  background: url('../images/bled.jpg') no-repeat 0 -200px ;
+  height: 700px;
+}
+
+.container-fluid.top_destinacije .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  text-align: center;
+}
+
+.container-fluid.top_destinacije .col-sm-8 .my-auto h1
+{
+  font-size: 40px;
+  color: white;
+}
+
+.container-fluid.top_destinacije .col-sm-8 .my-auto p
+{
+  font-size: 25px;
+  color: white;
+}
+
+.container-fluid .prazno
+{
+  height: 200px;
+}
+
+.container-fluid.visit
+{
+  height: 600px;
+}
+
+.container-fluid.visit .col-sm-8 .potovanje1
+{
+  background: url('../images/slika10.jpg') no-repeat;
+  height: 700px;
+}
+
+/* Kraški */
+
+.container-fluid.background_kraska .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.background_kraska
+{
+  background: url('../images/image5.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.destinacije .col-3 .card .prvi_kraski
+{
+  background: url('../images/slika15.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .drugi_kraski
+{
+  background: url('../images/slika16.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .tretji_kraski
+{
+  background: url('../images/slika17.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .cetrti_kraski
+{
+  background: url('../images/slika18.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje1_kras
+{
+  background: url('../images/slika19.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje2_kras
+{
+  background: url('../images/slika20.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje3_kras
+{
+  background: url('../images/image10.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje4_kras
+{
+  background: url('../images/image11.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje5_kras
+{
+  background: url('../images/image12.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.top_destinacije_kras .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  background-color: rgb(227, 235, 247, 0.5);
+}
+
+.container-fluid.top_destinacije_kras h1
+{
+  text-align: center;
+  font-size: 50px;
+  width: 600px;
+  margin: auto;
+
+}
+.container-fluid.top_destinacije_kras p
+{
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.container-fluid.top_destinacije_kras
+{
+  background: url('../images/image6.jpg') no-repeat;
+  height: 700px;
+  font-family: 'Noto Serif TC', serif;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Osrednja slovenija */
+
+.container-fluid.background_osrednja
+{
+  background: url('../images/slika36.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.background_osrednja .col-sm-8
+{
+  align-content: center;
+}
+
+.container-fluid.background_osrednja .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.destinacije .col-3 .card .prvi_osrednja
+{
+  background: url('../images/slika26.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .drugi_osrednja
+{
+  background: url('../images/slika27.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .tretji_osrednja
+{
+  background: url('../images/slika28.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .cetrti_osrednja
+{
+  background: url('../images/slika37.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje1_osrednja
+{
+  background: url('../images/slika30.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje2_osrednja
+{
+  background: url('../images/slika31.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje3_osrednja
+{
+  background: url('../images/slika32.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje4_osrednja
+{
+  background: url('../images/slika33.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje5_osrednja
+{
+  background: url('../images/slika34.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.top_destinacije_osrednja  .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  background-color: rgb(227, 235, 247, 0.5);
+}
+
+.container-fluid.top_destinacije_osrednja h1
+{
+  text-align: center;
+  font-size: 50px;
+  width: 600px;
+  margin: auto;
+
+}
+.container-fluid.top_destinacije_osrednja p
+{
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.container-fluid.top_destinacije_osrednja
+{
+  background: url('../images/slika36.jpg') no-repeat 0 -200px;
+  height: 700px;
+  font-family: 'Noto Serif TC', serif;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Panonska */
+
+.container-fluid.background_panonska
+{
+  background: url('../images/slika43.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.background_panonska .col-sm-8
+{
+  align-content: center;
+}
+
+.container-fluid.background_panonska .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.destinacije .col-3 .card .prvi_panonska
+{
+  background: url('../images/slika39.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .drugi_panonska
+{
+  background: url('../images/slika40.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .tretji_panonska
+{
+  background: url('../images/slika41.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.destinacije .col-3 .card .cetrti_panonska
+{
+  background: url('../images/slika42.jpg') no-repeat;
+  height: 600px;
+  width: 320px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje1_panonska
+{
+  background: url('../images/slika44.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje2_panonska
+{
+  background: url('../images/slika45.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje3_panonska
+{
+  background: url('../images/slika46.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje4_panonska
+{
+  background: url('../images/slika47.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje5_panonska
+{
+  background: url('../images/slika48.jpg') no-repeat;
+  height: 700px;
+}
+
+.container-fluid.top_destinacije_panonska .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  background-color: rgb(227, 235, 247, 0.5);
+}
+
+.container-fluid.top_destinacije_panonska h1
+{
+  text-align: center;
+  font-size: 50px;
+  width: 600px;
+  margin: auto;
+
+}
+.container-fluid.top_destinacije_panonska p
+{
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.container-fluid.top_destinacije_panonska
+{
+  background: url('../images/slika38.jpg') no-repeat 0 -200px;
+  height: 700px;
+  font-family: 'Noto Serif TC', serif;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+body > div.container-fluid.prazno
+{
+  height: 100px;
+}
+
+/* podstran vina */
+.container-fluid.background_vina
+{
+  background: url('../images/image14.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje1_vina
+{
+  background: url('../images/image15.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje2_vina
+{
+  background: url('../images/image17.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje3_vina
+{
+  background: url('../images/image19.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje4_vina
+{
+  background: url('../images/image20.jpg') no-repeat ;
+  height: 700px;
+}
+
+.card-body.prvi
+{
+  position: absolute;
+  bottom: -5px;
+  color:black;
+}
+
+body > div.container-fluid.destinacija.poravnava > div > div:nth-child(2) > div > div
+{
+  position: absolute;
+  bottom: -5px;
+}
+
+body > div.container-fluid.destinacija1.poravnava > div > div:nth-child(2) > div > div
+{
+  position: absolute;
+  bottom: -12px;
+}
+
+.container-fluid.prazen
+{
+  height: 50px;
+  background-color: #abc6f2;
+}
+
+.container-fluid.background_vina .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.background_hrana
+{
+  background: url('../images/5.jpg') no-repeat ;
+  height: 970px;
+}
+
+.container-fluid.background_hrana .col-sm-8 .my-auto
+{
+  color: #0a1605;
+  height: 300px;
+  line-height: 300px;
+  background-color: rgb(227, 235, 247, 0.5);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje1_hrana
+{
+  background: url('../images/6.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje2_hrana
+{
+  background: url('../images/7.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje3_hrana
+{
+  background: url('../images/8.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje4_hrana
+{
+  background: url('../images/4.png') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje5_hrana
+{
+  background: url('../images/9.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje6_hrana
+{
+  background: url('../images/10.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje7_hrana
+{
+  background: url('../images/11.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje8_hrana
+{
+  background: url('../images/12.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje9_hrana
+{
+  background: url('../images/13.jpg') no-repeat ;
+  height: 700px;
+}
+
+.container-fluid.visit .col-sm-10 .potovanje10_hrana
+{
+  background: url('../images/14.jpg') no-repeat ;
+  height: 700px;
+}
